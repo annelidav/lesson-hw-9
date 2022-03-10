@@ -1,0 +1,60 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+/* у меня не получилось поменять фоновую картинку в следующих блоках, хз чо делать */
+
+.row__sign {
+  width: 92px;
+  height: 92px;
+  background-image: url(/images/lamp.svg);
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+  margin-bottom: 39px;
+}
+
+.row__sign:nth-child(even) {
+  background-image: url(/images/keyboard.svg);
+}
+
+.row__sign:nth-child(3) {
+  background-image: url(/images/lightning.svg);
+}
+
+.row__title {
+  height: 100px;
+  margin-bottom: 8px;
+  font-family: Open Sans, sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1000px) {
+  .row__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.row__subtitle {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .row__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

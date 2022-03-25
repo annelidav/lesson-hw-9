@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.main {
+  margin: 50px;
+}
+
+.h1 {
+  font-family: Open Sans, sans-serif;
+  color: black;
+  font-size: 30px;
+  height: 124px;
+}
+
+.p {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  color: black;
+}
+
+.button {
+  font-family: Open Sans, sans-serif;
+  background: #ec7979;
+  width: 270px;
+  height: 58px;
+  border: 1px solid #ec7979;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ee8181;
+}
+
+.button:active {
+  background: #c96d6d;
+}
+
+.title {
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+/* я делала изменения не для 320px, а для 600px, чтобы увидеть результат */
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+.subtitle {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878b;
+}
+
+@media screen and (max-width: 1000px) {
+  .subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subtitle {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
